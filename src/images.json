@@ -1,0 +1,50 @@
+[
+    {
+        "name": "andromeda",
+        "": "https://en.es-static.us/upl/2014/11/andromeda-galaxy-Navaneeth-Unnikrishnan-11-9-2014-Kerala-India--e1570106613902.jpg"
+    },
+    {
+        "name": "comet",
+        "image": "https://cdn.mos.cms.futurecdn.net/zzCKzkAndgXbTKNoKCUqu9-320-80.jpg"
+    },
+    {
+        "name": "earth",
+        "image": "https://images.pexels.com/photos/2422/sky-earth-galaxy-universe.jpg?cs=srgb&dl=sky-earth-galaxy-universe-2422.jpg&fm=jpg"
+    },
+    {
+        "name": "eclipse",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Total_solar_eclipse_of_March_20%2C_2015_by_Damien_Deltenre_%28licensed_for_free_use%29._%2832844461616%29.jpg/320px-Total_solar_eclipse_of_March_20%2C_2015_by_Damien_Deltenre_%28licensed_for_free_use%29._%2832844461616%29.jpg"
+    },
+    {
+        "name": "jupiter",
+        "image": "https://news.ucsc.edu/2015/03/images/jupiter-400.jpg"
+    },
+    {
+        "name": "mars",
+        "image": "https://solarsystem.nasa.gov/internal_resources/3841"
+    },
+    {
+        "name": "milky_way",
+        "image": "https://www.universetoday.com/wp-content/uploads/2013/10/milky_way.jpg"
+    },
+    {
+        "name": "neptune",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Neptune_Full.jpg"
+    },
+    {
+        "name": "orion",
+        "image": "http://cdn.eso.org/images/screen/eso1723a.jpg"
+    },
+    {
+        "name": "saturn",
+        "image": "https://media.npr.org/assets/img/2019/01/17/heic1814b-e14bed9bf18bca4c126f9ce26cc74c34c436ae29-s800-c85.jpg"
+    },
+    {
+        "name": "sun",
+        "image": "http://www.astronomy.com/-/media/Images/News%20and%20Observing/News/2018/11/thesun.jpg?mw=600"
+    },
+    {
+        "name": "uranus",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Uranus2.jpg"
+    }
+]
