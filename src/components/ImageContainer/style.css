@@ -1,0 +1,22 @@
+#main-container > .img-container > img {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+}
+
+.img-container:hover {
+  transform: scale(1.1);
+}
+
+.img-container {
+  display: inline-block;
+  margin: 25px;
+  padding: 10px;
+  border: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.shake {
+  animation: shake 0.5s;
+}

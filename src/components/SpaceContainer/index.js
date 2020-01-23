@@ -3,11 +3,7 @@ import "./style.css";
 
 function SpaceContainer(props) {
     return (
-        <div className="card">
-            <div className="img-container">
-                <img alt={props.name} src={props.image} />
-            </div>
-        </div>
+        <div id="main-container">{props.children}</div>
     );
 }
 

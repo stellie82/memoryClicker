@@ -1,9 +1,10 @@
 import React from "react";
+import "./style.css";
 
 function Footer(props) {
     return (
         <footer>
-            <h1>Footer</h1>
+            <p>Clicky Game!</p>
         </footer>
     );
 }

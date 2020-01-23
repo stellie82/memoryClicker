@@ -1,4 +1,4 @@
-.card > .img-container > img {
-    width: 250px;
-    height: 250px;
-  }
+#main-container {
+    padding: 20px 150px;
+    text-align: center;
+}
