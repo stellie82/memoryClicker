@@ -16,19 +16,8 @@ class App extends Component {
     message: "Click on an image to begin.",
   };
 
-  // STATES
-  // if not in array:
-  // clicked = false
-  // push to array, add +1 to score
-  // if score <= topscore, score = topscore
-  // if score === 12, you win
-
-  // if in array:
-  // clicked = true;
-  // you lose
-
   scoreCounter = name => {
-    let clickedIds = this.state.clickedImages; // clickedImages: []
+    let clickedIds = this.state.clickedImages;
     let currentScore = this.state.score;
     let topScore = this.state.topScore;
 
@@ -40,23 +29,22 @@ class App extends Component {
         score: currentScore,
         message: "Correct guess, keep going!"
       });
-      if (currentScore <= topScore) {
-        this.setState({topScore: currentScore});
-        console.log(topScore);
-      } else if (currentScore === 12) {
+      if (currentScore === 12) {
         this.setState({
           clickedImages: [],
           score: 0,
           topScore: 0,
           message: "You win!",
         });
+      } else if (currentScore >= topScore) {
+        topScore++;
+        this.setState({topScore: currentScore});
       };
       // If element has been clicked before
     } else {
       this.setState({
         clickedImages: [],
         score: 0,
-        topScore: 0,
         message: "Sorry, you lose. Click an image to try again."
       });
     };

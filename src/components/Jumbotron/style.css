@@ -1,0 +1,22 @@
+.jumbotron {
+    margin: 0;
+    padding: 100px;
+    height: 325px;
+    background: url(./space.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.jumbotron > h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    text-shadow: 2px 2px 4px gray;
+}
+
+.jumbotron > p {
+    font-family: 'Courier New', Courier, monospace;
+}

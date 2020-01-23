@@ -1,0 +1,13 @@
+#score, #top-score {
+    display: inline-block;
+}
+
+.nav-item {
+    list-style: none;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-item > p {
+    margin: 0;
+}

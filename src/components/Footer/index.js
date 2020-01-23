@@ -4,7 +4,7 @@ import "./style.css";
 function Footer(props) {
     return (
         <footer>
-            <p>Clicky Game!</p>
+            <p>Space Memory &copy;</p>
         </footer>
     );
 }

@@ -1,4 +1,8 @@
 #main-container {
-    padding: 20px 150px;
+    padding: 20px 200px;
+    background: url(./moon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     text-align: center;
 }
