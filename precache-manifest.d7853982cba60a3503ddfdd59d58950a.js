@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ed13c753802e19c8f549bb9fc32c3a7f",
+    "revision": "2978bfc384eba181aa7611844b6c1686",
     "url": "/memoryClicker/index.html"
   },
   {
-    "revision": "e8b4acc856e326879093",
-    "url": "/memoryClicker/static/css/main.544a631d.chunk.css"
+    "revision": "7ee573adef32d54bfee9",
+    "url": "/memoryClicker/static/css/main.34ec42be.chunk.css"
   },
   {
     "revision": "e764febed043d74d7688",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/memoryClicker/static/js/2.d781a221.chunk.js.LICENSE"
   },
   {
-    "revision": "e8b4acc856e326879093",
-    "url": "/memoryClicker/static/js/main.853a74ee.chunk.js"
+    "revision": "7ee573adef32d54bfee9",
+    "url": "/memoryClicker/static/js/main.8aaf9f30.chunk.js"
   },
   {
     "revision": "baeabe98f11e51255642",
