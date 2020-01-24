@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/memoryClicker/static/css/main.34ec42be.chunk.css",
-    "main.js": "/memoryClicker/static/js/main.8aaf9f30.chunk.js",
-    "main.js.map": "/memoryClicker/static/js/main.8aaf9f30.chunk.js.map",
+    "main.js": "/memoryClicker/static/js/main.813097c4.chunk.js",
+    "main.js.map": "/memoryClicker/static/js/main.813097c4.chunk.js.map",
     "runtime-main.js": "/memoryClicker/static/js/runtime-main.94b85538.js",
     "runtime-main.js.map": "/memoryClicker/static/js/runtime-main.94b85538.js.map",
     "static/js/2.d781a221.chunk.js": "/memoryClicker/static/js/2.d781a221.chunk.js",
     "static/js/2.d781a221.chunk.js.map": "/memoryClicker/static/js/2.d781a221.chunk.js.map",
     "index.html": "/memoryClicker/index.html",
-    "precache-manifest.d7853982cba60a3503ddfdd59d58950a.js": "/memoryClicker/precache-manifest.d7853982cba60a3503ddfdd59d58950a.js",
+    "precache-manifest.20262b41d747dae570d5910b375b407f.js": "/memoryClicker/precache-manifest.20262b41d747dae570d5910b375b407f.js",
     "service-worker.js": "/memoryClicker/service-worker.js",
     "static/css/main.34ec42be.chunk.css.map": "/memoryClicker/static/css/main.34ec42be.chunk.css.map",
     "static/js/2.d781a221.chunk.js.LICENSE": "/memoryClicker/static/js/2.d781a221.chunk.js.LICENSE",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.94b85538.js",
     "static/js/2.d781a221.chunk.js",
     "static/css/main.34ec42be.chunk.css",
-    "static/js/main.8aaf9f30.chunk.js"
+    "static/js/main.813097c4.chunk.js"
   ]
 }
