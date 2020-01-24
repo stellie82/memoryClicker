@@ -14,6 +14,7 @@ class App extends Component {
     score: 0,
     topScore: 0,
     message: "Click on an image to begin.",
+    cssShake: ""
   };
 
   scoreCounter = name => {
@@ -27,14 +28,15 @@ class App extends Component {
       currentScore++;
       this.setState({
         score: currentScore,
-        message: "Correct guess, keep going!"
+        message: "Correct guess, keep going!",
+        cssShake: ""
       });
       if (currentScore === 12) {
         this.setState({
           clickedImages: [],
           score: 0,
           topScore: 0,
-          message: "You win!",
+          message: "You win!!  Click to play again.",
         });
       } else if (currentScore >= topScore) {
         topScore++;
@@ -45,7 +47,8 @@ class App extends Component {
       this.setState({
         clickedImages: [],
         score: 0,
-        message: "Sorry, you lose. Click an image to try again."
+        message: "Sorry, you lose. Click an image to try again.",
+        cssShake: "shake"
       });
     };
 
@@ -66,7 +69,8 @@ class App extends Component {
           topScore={this.state.topScore}
         />
         <Jumbotron />
-        <SpaceContainer>
+        <SpaceContainer
+          cssShake={this.state.cssShake}>
           {this.state.elements.map(element => (
             <ImageContainer
               scoreCounter={this.scoreCounter}

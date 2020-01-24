@@ -3,7 +3,7 @@ import "./style.css";
 
 function ImageContainer(props) {
     return (
-        <div className="img-container shake">
+        <div className="img-container">
             <img alt={props.name} src={props.image}
             onClick={() => props.scoreCounter(props.name)} />
         </div>
