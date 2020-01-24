@@ -5,7 +5,7 @@ function Navbar(props) {
     return (
         <nav className="navbar sticky-top navbar-light bg-light nav-justified">
             <li className="nav-item">
-                <a className="nav-link" href="/">Home</a>
+                <a className="nav-link" href="https://stellie82.github.io/memoryClicker/">Home</a>
             </li>
             <li className="nav-item">
                 <p className="nav-link" id="message"><b>{props.message}</b></p>
